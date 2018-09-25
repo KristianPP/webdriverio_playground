@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Test_Adidas_Home_Page" timestamp="2018-09-25T22:33:16" time="27.838" tests="2" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="eecf616f8523fca1fa1f185d8ab9bca7"/>
+      <property name="suiteName" value="Test Adidas Home Page"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value=".\test\homePageTest.js"/>
+    </properties>
+    <testcase classname="chrome.Test_Adidas_Home_Page" name="Should_have_the_hero_carousel" time="9.152">
+      <system-out>
+        <![CDATA[
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/46528423e531d4f5223e25fb9238f040/window_handle - {}
+RESULT: {"sessionId":"46528423e531d4f5223e25fb9238f040","status":0,"value":"CDwindow-B0CCD1D1F34364BE6071A7582F703991"}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/46528423e531d4f5223e25fb9238f040/url - {"url":"https://www.adidas.co.uk/"}
+RESULT: {"sessionId":"46528423e531d4f5223e25fb9238f040","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/46528423e531d4f5223e25fb9238f040/window/%7BCDwindow-B0CCD1D1F34364BE6071A7582F703991%7D/maximize - {}
+RESULT: {"sessionId":"46528423e531d4f5223e25fb9238f040","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/46528423e531d4f5223e25fb9238f040/element - {"using":"css selector","value":"section[class*=\"main\"] [class*=\"content\"]>[class*=\"wallpaperWrapper\"]"}
+RESULT: {"sessionId":"46528423e531d4f5223e25fb9238f040","status":0,"value":{"ELEMENT":"0.18756247566466522-1"}}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.Test_Adidas_Home_Page" name="carousel_should_exist_and_be_scrollable" time="18.685">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/46528423e531d4f5223e25fb9238f040/element - {"using":"css selector","value":"div[data-auto-id=\"carousel-slider\"] div"}
+RESULT: {"sessionId":"46528423e531d4f5223e25fb9238f040","status":0,"value":{"ELEMENT":"0.18756247566466522-2"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/46528423e531d4f5223e25fb9238f040/element/0.18756247566466522-2/click - {}
+RESULT: {"sessionId":"46528423e531d4f5223e25fb9238f040","status":0,"value":null}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/46528423e531d4f5223e25fb9238f040/screenshot - {}
+RESULT: null
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/46528423e531d4f5223e25fb9238f040/screenshot - {}
+RESULT: null
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/46528423e531d4f5223e25fb9238f040/screenshot - {}
+RESULT: null
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/46528423e531d4f5223e25fb9238f040/screenshot - {}
+RESULT: null
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/46528423e531d4f5223e25fb9238f040/screenshot - {}
+RESULT: null
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/46528423e531d4f5223e25fb9238f040/screenshot - {}
+RESULT: null
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/46528423e531d4f5223e25fb9238f040/screenshot - {}
+RESULT: null
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/46528423e531d4f5223e25fb9238f040/screenshot - {}
+RESULT: null
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/46528423e531d4f5223e25fb9238f040/screenshot - {}
+RESULT: null
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/46528423e531d4f5223e25fb9238f040/screenshot - {}
+RESULT: null
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/46528423e531d4f5223e25fb9238f040/screenshot - {}
+RESULT: null
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/46528423e531d4f5223e25fb9238f040/screenshot - {}
+RESULT: null
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/46528423e531d4f5223e25fb9238f040/screenshot - {}
+RESULT: null
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/46528423e531d4f5223e25fb9238f040/screenshot - {}
+RESULT: null
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/46528423e531d4f5223e25fb9238f040/screenshot - {}
+RESULT: null
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/46528423e531d4f5223e25fb9238f040/screenshot - {}
+RESULT: null
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/46528423e531d4f5223e25fb9238f040/screenshot - {}
+RESULT: null
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/46528423e531d4f5223e25fb9238f040/screenshot - {}
+RESULT: null
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/46528423e531d4f5223e25fb9238f040/screenshot - {}
+RESULT: null
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/46528423e531d4f5223e25fb9238f040/screenshot - {}
+RESULT: null
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/46528423e531d4f5223e25fb9238f040/screenshot - {}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
