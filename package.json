@@ -20,7 +20,5 @@
     "wdio-spec-reporter": "^0.1.5",
     "webdriverio": "^4.13.2"
   },
-  "dependencies": {
-    "git": "^0.1.5"
-  }
+  "dependencies": {}
 }
