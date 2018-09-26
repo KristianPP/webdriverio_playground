@@ -1,7 +1,7 @@
 var expect = require('chai').expect;
 var HomePage = require('./pages/HomePage');
 
-describe('Test Adidas Home Page', function() {
+describe('Test Adidas Home Page', () => {
     it('Should have the hero carousel', function () {
        HomePage.open();
        expect(HomePage.heroImage).to.exist;
