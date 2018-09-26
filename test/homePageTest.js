@@ -1,5 +1,5 @@
-var expect = require('chai').expect;
-var HomePage = require('./pages/HomePage');
+let expect = require('chai').expect;
+let HomePage = require('../pages/HomePage');
 
 describe('Test Adidas Home Page', () => {
     it('Should have the hero carousel', function () {
